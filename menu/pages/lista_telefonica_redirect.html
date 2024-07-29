@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecionando para Lista Telefônica</title>
+    <link rel="stylesheet" href="../styles.css">
+    <script>
+        function redirectToListaTelefonica() {
+            window.location.href = 'file:///C:/Users/paulo.paiva/Downloads/AGENDA+TELEF%C3%94NICA+IAM+2024+MAI%20(1).pdf';
+        }
+    </script>
+</head>
+<body onload="redirectToListaTelefonica()">
+    <div class="sidebar">
+        <h2>Menu Lateral</h2>
+        <ul>
+            <li><a href="login.html">Home</a></li>
+            <li><a href="sei_redirect.html">SEI FIOCRUZ</a></li>
+            <li><a href="compras_gov_redirect.html">COMPRAS.GOV</a></li>
+            <li><a href="lista_telefonica_redirect.html">LISTA TELEFONICA AGGEU</a></li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <h1>Redirecionando para Lista Telefônica...</h1>
+        <p>Se não for redirecionado automaticamente, <a href="file:///C:/Users/paulo.paiva/Downloads/AGENDA+TELEF%C3%94NICA+IAM+2024+MAI%20(1).pdf">clique aqui</a>.</p>
+        <!-- Botão para retornar ao menu inicial -->
+        <button onclick="window.location.href='../index.html'">Retornar ao Menu</button>
+    </div>
+</body>
+</html>
